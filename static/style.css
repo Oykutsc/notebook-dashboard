@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+  
+  /* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 13px;
+}
+  
+  /* Header/logo Title */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #A3BCB6;
+    color: #3C403D;
+}
+  
+  /* Increase the font size of the heading */
+.header h1 {
+    font-size: 40px;
+}
+  
+
+/* Create two equal columns that floats next to each other */
+.mycolumn {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.myrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1500px) {
+  .column {
+    width: 100%;
+  }
+}
+.wrap{
+  background-color: #DADED4;
+  padding: 20px;
+  height: 400px;
+  align-content: space-evenly;
+  border-radius: 2px;
+  
+}
+.wr{
+  padding: 10px;
+}
+.fullwrap{
+  display: flex;
+  background-color: #DADED4;
+  padding: 20px;
+  border-radius: 2px;
+  height: 780px;
+  flex-direction: column;
+}
+
+.txt{
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.custom-select {
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  padding: 0.25em 0.5em;
+  min-height: 30px;
+  font-size: inherit;
+}
+
+.tablinks{
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  line-height: 1.5;
+  vertical-align: middle;
+  border-radius: .25rem;
+  width:100px;
+  text-align: center;
+  background-color: white;
+  padding-top: .375rem;
+  padding-bottom: .375rem;
+  min-height: 20px;
+  padding-left: 0%;
+  padding-right: 0%;
+  border: 1px solid #ced4da;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.tab{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.whitepadding{
+  background-color: white;
+  padding: 5px;
+}
