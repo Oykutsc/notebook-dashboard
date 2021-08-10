@@ -1,5 +1,5 @@
 # Kaggle Notebooks Data Analysis Dashboard
-The dashboard has a data frame and some plots. Data frame has names, number of columns and code columns, language they are written in and datasets, functions and libraries that are used. The plots answer these questions:
+The dashboard is analysing Kaggle notebooks. It has a data frame and some plots. Data frame has names, number of columns and code columns, language they are written in and datasets, functions and libraries that are used. The plots answer these questions:
 - What is the distribution of languages?
 - Which libraries are used?
 - What are the longest notebooks and how much of it is code cells?
